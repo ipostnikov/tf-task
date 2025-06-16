@@ -3,12 +3,12 @@ terraform {
   required_providers {
     google = {
       source  = "hashicorp/google"
-      version = "~> 4.0"
+      version = ">= 4.47, < 7.0"
     }
   }
 
   backend "gcs" {
-    bucket = "my_bucket"
+    bucket = "my_tf_bucket_1"
     prefix = "terraform/state"
   }
 }
