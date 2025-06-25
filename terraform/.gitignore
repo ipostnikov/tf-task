@@ -1,6 +1,0 @@
-# Ignore Terraform local files
-.terraform/
-*.tfstate
-*.tfstate.*
-*.tfvars
-plan.txt
